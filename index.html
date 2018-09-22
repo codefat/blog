@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Welcome to CodeFat.com!"
+description: "一个游走在代码行间的胖子的日常!"
 ---
 
 {% for post in paginator.posts %}
@@ -9,15 +9,15 @@ description: "Welcome to CodeFat.com!"
         <h2 class="post-title">
             {{ post.title }}
         </h2>
+    	{% if post.subtitle %}
+    	<h3 class="post-subtitle">
+        	{{ post.subtitle }}
+    	</h3>
+    	{% endif %}
+    	<div class="post-content-preview">
+        	{{ post.content | strip_html | truncate:200 }}
+    	</div>
     </a>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">
-        {{ post.subtitle }}
-    </h3>
-    {% endif %}
-    <div class="post-content-preview">
-        {{ post.content | strip_html | truncate:200 }}
-    </div>
     <p class="post-meta">
         @{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
