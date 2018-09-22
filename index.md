@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to CodeFat.com
 
-You can use the [editor on GitHub](https://github.com/codefat/web/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+十多年的代码生涯，热爱编码，乐于沉迷在代码编织的世界中。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+准备在GitHub上分享一些代码片段，奇技淫巧，茴香豆的不同写法。
 
 ### Markdown
 
