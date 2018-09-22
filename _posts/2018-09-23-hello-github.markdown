@@ -1,7 +1,6 @@
 ---
 layout:			post
 title:			"Try GitHub..."
-subtitle:		"Welcome to CodeFat.com"
 date:			2018-09-23 01:08:00
 author:			"码胖"
 catalog:		true
