@@ -19,7 +19,7 @@ description: "Welcome to CodeFat.com!"
         {{ post.content | strip_html | truncate:200 }}
     </div>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        @{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>

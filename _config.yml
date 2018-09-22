@@ -1,12 +1,12 @@
 theme: jekyll-theme-hacker
 
-# Site settings
 title: CodeFat.com
 SEOTitle: 码胖的博客 | CodeFat
 description: "JAVA开发、架构设计、线上运维、调优、故障处理"
 keyword: "JAVA"
 url: "https://codefat.com"
 baseurl: ""
+author: "码胖"
 
 future: true
 

@@ -3,9 +3,6 @@ layout:			post
 title:			"Try GitHub..."
 date:			2018-09-23 01:08:00
 author:			"码胖"
-catalog:		true
-tags:
-	- 生活
 ---
 
 > "试试玩玩GitHub"
