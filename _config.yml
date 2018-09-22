@@ -1,1 +1,21 @@
 theme: jekyll-theme-hacker
+
+# Site settings
+title: CodeFat.com
+SEOTitle: 码胖的博客 | CodeFat
+description: "JAVA开发、架构设计、线上运维、调优、故障处理"
+keyword: "JAVA"
+url: "https://codefat.com"
+baseurl: ""
+
+future: true
+
+plugins: [jekyll-paginate]
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true    
